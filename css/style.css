@@ -1,0 +1,254 @@
+body, html{
+    height: 100%;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    #header{
+        text-align: center;
+    }    
+    #social{
+        text-align: center;
+    }
+    #social hr{
+     margin: 8% auto;   
+    }
+    #who{
+        text-align: center;
+    }
+    #who hr{
+     margin: 8% auto;   
+    }
+    
+    #footer{
+        text-align: center;
+        
+    }
+     #footer .fas , #footer .fab{
+         padding: 5px;
+    }
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: rgba(21,21,21,0.5);
+    border-bottom: 1px solid #dedede;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #d1d1d1;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+/*HEADER*/
+
+#header{
+    background: url("../images/stars-bg.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#header img{
+    padding: 0 0 20px 0;
+    width: 80%;
+}
+
+#header .header-right{
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#header .fas{
+    margin: 5% 0;
+}
+
+#header a .fas{
+    color: #fff;
+}
+
+#header .fas:hover{
+    color: #ccc;
+ }
+
+/*SOCIAL*/
+
+#social{
+    padding: 4.25rem 0;
+}
+
+#social .fas , #social .fab{
+    color:  #be2835;
+    font-size: 1.5em;
+    border: 2px solid #be2835;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%; 
+    text-align: center;
+    padding: 30% 0;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+#social .fas:hover , #social .fab:hover{
+    color:  #fff;
+    background: #be2835;
+}
+
+/*WHO*/
+
+#who{
+    background: rgb(235,235,235);
+    padding: 4.25rem 0 3rem 0;
+}
+
+#who button{
+    background: #be2835;
+    color: white;
+    width: 50%;
+}
+
+
+#who button:hover{
+    background: white;
+    color: #be2835;
+    border: 1px solid #be2835;
+    width: 50%;
+}
+
+/*WORK*/
+
+#work{
+    padding: 4.5rem;
+}
+
+
+#work .work-img{
+    position: relative;
+
+}
+
+#work .work-img .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("../images/eye.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 0;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#work .work-img .img-overlay:hover{
+
+    z-index: 0.5;
+    opacity: 0.7;
+    
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+/*WHY*/
+
+#why{
+    background: rgb(235,235,235);
+    padding: 5rem 0; 
+}
+
+
+#why .fas,.far{
+    color: #be2835;
+    padding: 20px 0;
+}
+
+/*CUSTOMERS*/
+
+#customers{
+    
+    padding: 5rem 0;
+    
+}
+
+#customers .carousel-indicators li{
+    background-color: #be2835;
+}
+
+#customers .carousel-inner{
+    margin-bottom: 50px;
+} 
+
+#customers .carousel-indicators{
+    margin-bottom: -50px;
+}
+
+/*PRICING*/
+
+#pricing{
+    background: rgb(235,235,235);
+        padding: 5rem 0;
+}
+
+#pricing .card .card-header{
+    background: #6e6e6e;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+#pricing .card .standard{
+    background-color: #be2835;
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+#pricing .card .card-header:hover{
+    background-color: #be2835;
+    
+}
+
+/*CONTACT*/
+
+#contact{
+    padding: 5rem 0;
+}
+
+/*FOOTER*/
+
+#footer{
+    background-color: #484848;
+    padding: 2.6rem 0;
+    color: #fff;
+}
+
+#footer h5{
+    font-size: 1em;
+ }
+
+#footer .fas , #footer .fab{
+    color:  #fff;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+#footer .fas:hover , #footer .fab:hover{
+    color:  #3fff3f;
+}
